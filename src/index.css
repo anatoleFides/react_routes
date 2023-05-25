@@ -1,0 +1,41 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  background: #777676;
+}
+
+header a {
+  margin: 0 24px;
+  text-decoration: none;
+  font-size: 24;
+  font-weight: 700;
+  color: #fff;
+  border-bottom: 2px solid transparent;
+  transition: .5s all;
+}
+
+main {
+  padding: 32px 0;
+  margin: 0 50px;
+}
+
+.active {
+  color: #0f0;
+  border-bottom: 2px solid#0f0;
+  transition: .5s all;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 0 0;
+}
+
+footer {
+  text-align: center;
+}
