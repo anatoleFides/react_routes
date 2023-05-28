@@ -13,6 +13,7 @@ const BlogPage = () => {
   return (
   <div>
     <h1>Blogs</h1>
+    <Link to="/posts/new">Add new post</Link>
     {
       posts.map(post => (
         <Link to={`/posts/${post.id}`} key={post.id}>
